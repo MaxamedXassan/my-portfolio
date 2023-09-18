@@ -29,7 +29,7 @@ const handleClick = () => setClick(!click);
             </li>
 
             <li>
-                <Link href={"/contact"}>Contact</Link>
+                <Link href={"/about"}>About</Link>
             </li>
         </ul>
         <div onClick={handleClick} className='md:hidden py-3 mx-2'> 
@@ -48,7 +48,7 @@ const handleClick = () => setClick(!click);
          </li>
 
          <li>
-             <Link href={"/contact"}>Contact</Link>
+             <Link href={"/about"}>About</Link>
          </li>
      </ul>
     )}
